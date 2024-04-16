@@ -1,0 +1,128 @@
+/* Estilo geral */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url(portifolio.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* cabeçalho */
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.interface h1{
+    color: rgb(216, 118, 118);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    padding: 40px 4%;
+    
+
+}
+
+header > .interface{
+    text-align: center;
+}
+section.topo-do-site{
+    padding: 40px 4%;
+    
+}
+main{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sobremim h2{
+    color: rgb(114, 157, 201);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+}
+
+.sobremim p{
+    color: rgb(227, 235, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    padding: 5px 400px 0px 0px;
+  
+}
+
+
+.objetivos p{
+    padding: 5px 400px 0px 0px;
+    color: aliceblue;
+  
+
+
+}
+.objetivos h3{
+    padding: 5px 400px 0px 0px;
+    color: rgb(86, 199, 114);
+}
+
+.Projetos p{
+    padding: 5px 400px 0px 0px;
+    color: aliceblue;
+}
+
+
+.Projetos h2{
+    padding: 5px 400px 0px 0px;
+    color: rgb(179, 226, 70);
+}
+main a{
+    color: rgba(182, 188, 194, 0.863);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+main nav ul{
+    list-style: none;
+}
+
+main nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+    font-weight:600;
+    
+}
+.Projetos nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+main a:hover{
+    color: rgb(10, 141, 255);
+    transform: scale(1.05);
+}
+
+.projeto2{
+    padding: 0px 400px 0px 0px;
+}
+.habilidades h3{
+    color: rgb(164, 102, 223);
+
+}
+
+.habilidades p{
+    padding: 0px 400px 0px 0px; 
+}
+
+.final{
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 10px 10px 110px;
+}
+
+
+
+footer a{
+    color: rgb(252, 253, 255);
+ 
+}
